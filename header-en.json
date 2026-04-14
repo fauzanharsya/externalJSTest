@@ -1,0 +1,34 @@
+{
+  "primaryMenu": [
+    {
+      "label": "Buy",
+      "href": "singapore/sale",
+      "children": [
+        {
+          "title": "RESIDENTIAL FOR SALE",
+          "items": [
+            { "label": "HDB For Sale", "href": "/singapore/sale/hdb" },
+            { "label": "Condos For Sale", "href": "/singapore/sale/condos-apartments" },
+            {
+              "label": "New Launch Condos For Sale",
+              "href": "/singapore/sale/condos-apartments?composite_property_status=new_launch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Rent",
+      "href": "singapore/rent",
+      "children": [
+        {
+          "title": "RESIDENTIAL FOR RENT",
+          "items": [
+            { "label": "HDB For Rent", "href": "/singapore/rent/hdb" },
+            { "label": "Condos For Rent", "href": "/singapore/rent/condos-apartments" }
+          ]
+        }
+      ]
+    }
+  ]
+}
