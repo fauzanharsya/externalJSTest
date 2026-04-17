@@ -2,7 +2,7 @@
   "primaryMenu": [
     {
       "label": "Buy",
-      "href": "singapore/sale",
+      "href": "/singapore/sale",
       "children": [
         {
           "title": "RESIDENTIAL FOR SALE",
@@ -12,6 +12,16 @@
             {
               "label": "New Launch Condos For Sale",
               "href": "/singapore/sale/condos-apartments?composite_property_status=new_launch"
+            },
+            { "label": "Landed Houses For Sale", "href": "/singapore/sale/houses" },
+            {
+              "label": "Executive Condos For Sale",
+              "href": "/singapore/sale/executive-condominiums"
+            },
+            {
+              "label": "All Residential Property For Sale",
+              "href": "/singapore/sale",
+              "separated": true
             }
           ]
         }
@@ -19,16 +29,453 @@
     },
     {
       "label": "Rent",
-      "href": "singapore/rent",
+      "href": "/singapore/rent",
       "children": [
         {
           "title": "RESIDENTIAL FOR RENT",
           "items": [
             { "label": "HDB For Rent", "href": "/singapore/rent/hdb" },
-            { "label": "Condos For Rent", "href": "/singapore/rent/condos-apartments" }
+            { "label": "Condos For Rent", "href": "/singapore/rent/condos-apartments" },
+            { "label": "Landed Houses For Rent", "href": "/singapore/rent/houses" },
+            {
+              "label": "Executive Condo For Rent",
+              "href": "/singapore/rent/executive-condominiums"
+            },
+            { "label": "Rooms For Rent", "href": "/singapore/rent/rooms" },
+            {
+              "label": "All Residential Property For Rent",
+              "href": "/singapore/rent",
+              "separated": true
+            },
+            {
+              "label": "Home Finder Map",
+              "subTitle": "Rentals by location and budget",
+              "href": "/singapore/home-finder?source=PN_NAVBAR",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/home-finder-icon.svg",
+              "newTag": true,
+              "separated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sell",
+      "href": "",
+      "visibleTo": ["guest", "consumer"],
+      "children": [
+        {
+          "title": "AS HOME OWNER",
+          "visibleTo": ["guest", "consumer"],
+          "items": [
+            {
+              "label": "99 Property Value",
+              "subTitle": "Stay updated on your home's value",
+              "href": "/singapore/property-value-tool",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/property-value.svg"
+            },
+            {
+              "label": "List property as owner",
+              "subTitle": "List Your Property To Rent Or Sell",
+              "href": "/owner",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/property-as-owner.svg"
+            },
+            {
+              "label": "Property Agent Directory",
+              "subTitle": "Find trusted property agents",
+              "href": "/singapore/agents",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg"
+            }
+          ]
+        },
+        {
+          "title": "AS AGENT",
+          "visibleTo": ["guest"],
+          "items": [
+            {
+              "label": "Advertise with 99 Group",
+              "subTitle": "Discover tools and package options",
+              "href": "/singapore/property-agent-hub",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agents-offering.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Find Agent",
+      "href": "/singapore/agents"
+    },
+    {
+      "label": "New Launches",
+      "href": "/singapore/new-launches",
+      "children": [
+        {
+          "items": [
+            {
+              "label": "New Launches In Singapore",
+              "subTitle": "See The Most Recent New Launches To Hit The Market",
+              "href": "/singapore/new-launches",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/new-launches-in-sg.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Explore",
+      "href": "",
+      "separated": true,
+      "children": [
+        {
+          "items": [
+            {
+              "label": "HDBs in Singapore",
+              "subTitle": "Explore Singapore's Public Housing Estates",
+              "href": "/singapore/hdb",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/hdbs-in-sg.svg"
+            },
+            {
+              "label": "BTOs in Singapore",
+              "subTitle": "Track The Latest BTO News, Trends and Insights",
+              "href": "/singapore/hdb/bto",
+              "iconUrl": ""
+            },
+            {
+              "label": "Condos in Singapore",
+              "subTitle": "Discover Singapore's private condominiums",
+              "href": "/singapore/condos-apartments",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/condos-in-sg.svg"
+            },
+            {
+              "label": "Areas in Singapore",
+              "subTitle": "Find a neighbourhood you'll love to live in",
+              "href": "/singapore/neighbourhoods",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/areas-in-sg.svg"
+            },
+            {
+              "label": "MRT Stations in Singapore",
+              "subTitle": "Navigate Singapore's train station network",
+              "href": "/singapore/mrt-stations",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/mrt-in-sg.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Calculators",
+      "href": "/singapore/mortgages",
+      "children": [
+        {
+          "items": [
+            {
+              "label": "Eligibility Calculator",
+              "subTitle": "Know Your Buying Options",
+              "href": "/singapore/tools/eligibility-calculator",
+              "iconUrl": "",
+              "newTag": true
+            },
+            {
+              "label": "Stamp Duty Calculator",
+              "subTitle": "Estimate your property's BSD and ABSD",
+              "href": "/singapore/tools/stamp-duty-calculator",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/stamp-duty-calc.svg"
+            },
+            {
+              "label": "TDSR Calculator",
+              "subTitle": "Check mortgage limit for all property",
+              "href": "/singapore/tools/tdsr-calculator",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tdsr-calc.svg"
+            },
+            {
+              "label": "MSR Calculator",
+              "subTitle": "Check your HDB or EC mortgage limit",
+              "href": "/singapore/tools/msr-calculator",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "label": "Affordability Calculator",
+              "subTitle": "Find out your property spending power",
+              "href": "/singapore/tools/affordability-calculator",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/affordability-calc.svg"
+            },
+            {
+              "label": "Mortgage Calculator",
+              "subTitle": "Calculate your mortgage repayments",
+              "href": "/singapore/tools/mortgage-calculator",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/mortgage-calc.svg"
+            },
+            {
+              "label": "Progressive Payments Calculator",
+              "subTitle": "Get an easy breakdown of your payments",
+              "href": "/singapore/tools/progressive-payments-calculator",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/payments-calc.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Commercial",
+      "href": "/singapore/commercial",
+      "children": [
+        {
+          "title": "COMMERCIAL FOR SALE",
+          "items": [
+            { "label": "Shophouses For Sale", "href": "/sale/commercial/shophouse" },
+            { "label": "Retail For Sale", "href": "/sale/commercial/retail" },
+            { "label": "Offices For Sale", "href": "/sale/commercial/offices" },
+            { "label": "Industrial For Sale", "href": "/sale/commercial/industrial" },
+            { "label": "Warehouses For Sale", "href": "/sale/commercial/warehouse" },
+            {
+              "label": "All Commercial Property For Sale",
+              "href": "/sale/commercial",
+              "separated": true
+            }
+          ]
+        },
+        {
+          "title": "COMMERCIAL FOR RENT",
+          "items": [
+            { "label": "Shophouses For Rent", "href": "/rent/commercial/shophouse" },
+            { "label": "Retail For Rent", "href": "/rent/commercial/retail" },
+            { "label": "Offices For Rent", "href": "/rent/commercial/offices" },
+            { "label": "Industrial For Rent", "href": "/rent/commercial/industrial" },
+            { "label": "Warehouses For Rent", "href": "/rent/commercial/warehouse" },
+            {
+              "label": "All Commercial Property For Rent",
+              "href": "/rent/commercial",
+              "separated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "News",
+      "href": "/singapore/insider",
+      "children": [
+        {
+          "items": [
+            {
+              "label": "Insider",
+              "subTitle": "Property news, guides and insights",
+              "href": "/singapore/insider",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/insider2.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Agent Tools",
+      "href": "/singapore/property-agent-hub",
+      "visibleTo": ["guest", "agent"],
+      "children": [
+        {
+          "title": "TOOLS",
+          "visibleTo": ["agent"],
+          "items": [
+            {
+              "label": "Tower View",
+              "subTitle": "View Unit-By-Unit Visualisation",
+              "href": "/singapore/property-agent-hub/tower-view",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tower-view.svg",
+              "newTag": true
+            },
+            {
+              "label": "Prospector",
+              "subTitle": "Find High Potential Owner Leads",
+              "href": "/singapore/property-agent-hub/prospector",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/prospector.svg"
+            },
+            {
+              "label": "Unit Analysis",
+              "subTitle": "View Information About A Unit",
+              "href": "/singapore/property-agent-hub/unit-analysis",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/unitanalysis.svg"
+            },
+            {
+              "label": "Home Reports",
+              "subTitle": "Get Location Insights And Property Analytics",
+              "href": "/singapore/property-agent-hub/home-reports",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/home-report.svg"
+            },
+            {
+              "label": "Researcher",
+              "subTitle": "Make Comparisons With Transaction Data",
+              "href": "/researcher/dashboard",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/researcher.svg"
+            },
+            {
+              "label": "Market Trends",
+              "subTitle": "View Latest Property Market Trends",
+              "href": "/singapore/property-agent-hub/researcher/dashboard?active_tab=marketTrends",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/market-trend.svg"
+            },
+            {
+              "label": "Land Sales",
+              "subTitle": "View Past And Upcoming Land Sales",
+              "href": "/singapore/property-agent-hub/land-sales-en-bloc-data",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/land-sales.svg"
+            },
+            {
+              "label": "Area Expert",
+              "subTitle": "See client ad responses",
+              "href": "/singapore/property-agent-hub/area-expert",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/area-expert.svg"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "visibleTo": ["guest", "agent"],
+          "items": [
+            {
+              "label": "Agent Packages",
+              "subTitle": "Discover Tools And Package Options",
+              "href": "/singapore/property-agent-hub",
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agents-offering.svg"
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "quickActions": [
+    {
+      "label": "Favourites",
+      "href": "/dashboard/shortlists",
+      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/shortlist.svg"
+    },
+    {
+      "label": "Search History",
+      "href": "/dashboard/search-history",
+      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg"
+    }
+  ],
+  "profileDropdown": {
+    "consumer": [
+      {
+        "label": "Account",
+        "href": "/dashboard/profile",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg"
+      },
+      {
+        "label": "Favourites",
+        "href": "/dashboard/shortlists",
+        "iconUrl": ""
+      },
+      {
+        "label": "Search History",
+        "href": "/dashboard/search-history",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg"
+      },
+      {
+        "label": "Tracked Properties",
+        "href": "/dashboard/property-value",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg"
+      },
+      {
+        "label": "Listed Properties",
+        "href": "/dashboard/listings",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg"
+      },
+      {
+        "label": "Feedback",
+        "href": "/ask-us-anything",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg"
+      },
+      {
+        "label": "Log Out",
+        "href": "/logout",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg"
+      }
+    ],
+    "agent": [
+      {
+        "label": "Credits",
+        "href": "/select-credits-package"
+      },
+      {
+        "label": "Top Up",
+        "href": ""
+      },
+      {
+        "label": "Top Up",
+        "href": ""
+      },
+      {
+        "label": "Agent Home",
+        "href": "/dashboard/profile",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg"
+      },
+      {
+        "label": "Favourites",
+        "href": "/dashboard/shortlists",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg"
+      },
+      {
+        "label": "Search History",
+        "href": "/dashboard/search-history",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg"
+      },
+      {
+        "label": "Tracked Properties",
+        "href": "/dashboard/property-value",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg"
+      },
+      {
+        "label": "Listed Properties",
+        "href": "/dashboard/listings",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg"
+      },
+      {
+        "label": "Scheduled Groups",
+        "href": "/dashboard/scheduled-groups",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/scheduled-groups.svg"
+      },
+      {
+        "label": "Agent Page",
+        "href": "/singapore/agents/",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agent-page.svg",
+        "note": "agent_number and name slug appended by JS at runtime"
+      },
+      {
+        "label": "Feedback",
+        "href": "/ask-us-anything",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg"
+      },
+      {
+        "label": "Log Out",
+        "href": "/logout",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg"
+      }
+    ]
+  },
+  "listProperty": {
+    "consumer": [
+      {
+        "label": "List Property",
+        "href": "/create-listing/residential"
+      }
+    ],
+    "agent": [
+      {
+        "label": "List Property",
+        "title": "Create Residential/Commercial Listings",
+        "subTitle": "You Can Create More Must See Listings Using Credits Must See Option Is Available Inside",
+        "href": "/create-listing/residential"
+      }
+    ]
+  },
+  "authButtons": {
+    "signup": { "label": "Sign up", "href": "/signup" },
+    "login": { "label": "Log in", "href": "/signin" }
+  }
 }
