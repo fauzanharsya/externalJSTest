@@ -139,7 +139,7 @@
               "label": "BTOs in Singapore",
               "subTitle": "Track The Latest BTO News, Trends and Insights",
               "href": "/singapore/hdb/bto",
-              "iconUrl": ""
+              "iconUrl": "https://assets-v2.99.co/images/top-nav-hdb-btos-in-sg.svg"
             },
             {
               "label": "Condos in Singapore",
@@ -173,7 +173,7 @@
               "label": "Eligibility Calculator",
               "subTitle": "Know Your Buying Options",
               "href": "/singapore/tools/eligibility-calculator",
-              "iconUrl": "",
+              "iconUrl": "https://assets-v2.99.co/prod/_next/static/media/eligibility-calc.0aa54c12.svg",
               "newTag": true
             },
             {
@@ -192,7 +192,7 @@
               "label": "MSR Calculator",
               "subTitle": "Check your HDB or EC mortgage limit",
               "href": "/singapore/tools/msr-calculator",
-              "iconUrl": ""
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/msr-calc.svg"
             }
           ]
         },
