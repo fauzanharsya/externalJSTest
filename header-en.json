@@ -369,12 +369,12 @@
       {
         "label": "Favourites",
         "href": "/dashboard/shortlists",
-        "iconUrl": ""
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg"
       },
       {
         "label": "Search History",
         "href": "/dashboard/search-history",
-        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg"
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg"
       },
       {
         "label": "Tracked Properties",
