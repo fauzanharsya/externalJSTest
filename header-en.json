@@ -400,15 +400,8 @@
     "agent": [
       {
         "label": "Credits",
-        "href": "/select-credits-package"
-      },
-      {
-        "label": "Top Up",
-        "href": ""
-      },
-      {
-        "label": "Top Up",
-        "href": ""
+        "href": "/select-credits-package",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/credit.svg"
       },
       {
         "label": "Agent Home",
