@@ -305,7 +305,13 @@
               "subTitle": "Get Location Insights And Property Analytics",
               "href": "/singapore/property-agent-hub/home-reports",
               "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/home-report.svg"
-            },
+            }
+          ]
+        },
+        {
+          "title": "",
+          "visibleTo": ["agent"],
+          "items": [
             {
               "label": "Researcher",
               "subTitle": "Make Comparisons With Transaction Data",
@@ -335,12 +341,14 @@
         {
           "title": "",
           "visibleTo": ["guest", "agent"],
+          "fullWidth": true,
           "items": [
             {
               "label": "Agent Packages",
               "subTitle": "Discover Tools And Package Options",
               "href": "/singapore/property-agent-hub",
-              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agents-offering.svg"
+              "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agents-offering.svg",
+              "separated": true
             }
           ]
         }
