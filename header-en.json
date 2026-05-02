@@ -193,11 +193,7 @@
               "subTitle": "Check your HDB or EC mortgage limit",
               "href": "/singapore/tools/msr-calculator",
               "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/msr-calc.svg"
-            }
-          ]
-        },
-        {
-          "items": [
+            },
             {
               "label": "Affordability Calculator",
               "subTitle": "Find out your property spending power",
