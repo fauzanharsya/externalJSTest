@@ -309,7 +309,6 @@
           ]
         },
         {
-          "title": " ",
           "visibleTo": ["agent"],
           "items": [
             {
@@ -339,7 +338,6 @@
           ]
         },
         {
-          "title": "",
           "visibleTo": ["guest", "agent"],
           "fullWidth": true,
           "items": [
