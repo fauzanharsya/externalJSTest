@@ -405,7 +405,7 @@
     "agent": [
       {
         "label": "Credits",
-        "href": "/select-credit-package",
+        "href": "/select-credit-packages",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/credit.svg"
       },
       {
