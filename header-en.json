@@ -399,7 +399,6 @@
       },
       {
         "label": "Log Out",
-        "href": "/logout",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg"
       }
     ],
