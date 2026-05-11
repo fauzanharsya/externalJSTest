@@ -1,4 +1,36 @@
 {
+  "mobileNavHeader": {
+    "consumer": {
+      "profile": {
+        "url": "/dashboard/profile"
+      },
+      "chats": {
+        "url": "/dashboard/chats",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/envelope.svg"
+      }
+    },
+    "agent": {
+      "profile": {
+        "url": "/dashboard/profile"
+      },
+      "chats": {
+        "label": "Chats",
+        "url": "/dashboard/chats",
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/envelope.svg"
+      },
+      "actionLinks": [
+        {
+          "label": "List Property",
+          "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/list-property.svg"
+        },
+        {
+          "label": "Import Listing Via Realpost",
+          "url": "https://realpost.co",
+          "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/realpost.svg"
+        }
+      ]
+    }
+  },
   "primaryMenu": [
     {
       "url": "/singapore/sale",
@@ -745,12 +777,14 @@
     {
       "label": "Favourites",
       "url": "/dashboard/shortlists",
-      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/shortlist.svg"
+      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/shortlist.svg",
+      "visibleOn": ["desktop"]
     },
     {
       "label": "Search History",
       "url": "/dashboard/search-history",
-      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg"
+      "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg",
+      "visibleOn": ["desktop"]
     }
   ],
   "profileDropdown": {
@@ -759,55 +793,55 @@
         "label": "Account",
         "url": "/dashboard/profile",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Favourites",
         "url": "/dashboard/shortlists",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Search History",
         "url": "/dashboard/search-history",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Tracked Properties",
         "url": "/dashboard/property-value",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Buyer Profile",
         "url": "/profile/form/buyer?platform=web&source=Navigation Bar",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/buyer-profile.svg",
-        "isMobileOnly": true
+        "visibleOn": ["mobile"]
       },
       {
         "label": "Tenant Profile",
         "url": "/profile/form/tenant?platform=web&source=Navigation Bar",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tenant-profile.svg",
-        "isMobileOnly": true
+        "visibleOn": ["mobile"]
       },
       {
         "label": "Listed Properties",
         "url": "/dashboard/listings",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Feedback",
         "url": "/ask-us-anything",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Log Out",
         "url": null,
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop"]
       }
     ],
     "agent": [
@@ -815,75 +849,77 @@
         "label": "Credits",
         "url": "/select-credit-packages",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/credit.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop"]
       },
       {
         "label": "Agent Home",
         "url": "/dashboard/profile",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Favourites",
         "url": "/dashboard/shortlists",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Search History",
         "url": "/dashboard/search-history",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Tracked Properties",
         "url": "/dashboard/property-value",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Listed Properties",
         "url": "/dashboard/listings",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Scheduled Groups",
         "url": "/dashboard/scheduled-groups",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/scheduled-groups.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop"]
       },
       {
         "label": "Agent Page",
         "url": "/singapore/agents/",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agent-page.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop"]
       },
       {
         "label": "Feedback",
         "url": "/ask-us-anything",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop", "mobile"]
       },
       {
         "label": "Log Out",
         "url": null,
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg",
-        "isMobileOnly": false
+        "visibleOn": ["desktop"]
       }
     ]
   },
   "listProperty": {
     "consumer": [
       {
-        "label": "List Property"
+        "label": "List Property",
+        "visibleOn": ["desktop"]
       }
     ],
     "agent": [
       {
         "label": "List Property",
         "title": "Create Residential/Commercial Listings",
-        "subTitle": "You Can Create More Must See Listings Using Credits Must See Option Is Available Inside"
+        "subTitle": "You Can Create More Must See Listings Using Credits Must See Option Is Available Inside",
+        "visibleOn": ["desktop"]
       }
     ]
   },
