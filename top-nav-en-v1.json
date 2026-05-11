@@ -823,7 +823,7 @@
         "label": "Tenant Profile",
         "url": "/profile/form/tenant?platform=web&source=Navigation Bar",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tenant-profile.svg",
-        "visibleOn": ["desktop", "mobile"]
+        "visibleOn": ["mobile"]
       },
       {
         "label": "Listed Properties",
