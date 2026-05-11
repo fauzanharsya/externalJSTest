@@ -637,7 +637,7 @@
     },
     {
       "url": "/singapore/insider",
-      "label": "News",
+      "label": "Property News",
       "dataCy": "navNews",
       "separated": false,
       "visibleTo": null,
@@ -888,7 +888,7 @@
         "visibleOn": ["desktop"]
       },
       {
-        "label": "Ageng Page",
+        "label": "Agent Page",
         "url": "/singapore/agents/",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agent-page.svg",
         "visibleOn": ["desktop"]
