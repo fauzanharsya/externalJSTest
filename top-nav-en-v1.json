@@ -788,6 +788,7 @@
     }
   ],
   "profileDropdown": {
+    "label": "Account",
     "consumer": [
       {
         "label": "Account",
