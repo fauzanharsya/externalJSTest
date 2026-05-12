@@ -6,7 +6,7 @@
       },
       "chats": {
         "url": "/dashboard/chats",
-        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/envelope.svg"
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/inbox.svg"
       }
     },
     "agent": {
@@ -16,7 +16,7 @@
       "chats": {
         "label": "Chats",
         "url": "/dashboard/chats",
-        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/envelope.svg"
+        "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/inbox.svg"
       },
       "actionLinks": [
         {
