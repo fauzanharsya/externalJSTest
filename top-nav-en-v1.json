@@ -21,11 +21,6 @@
         {
           "label": "List Property",
           "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/list-property.svg"
-        },
-        {
-          "label": "Import Listing Via Realpost",
-          "url": "https://realpost.co",
-          "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/realpost.svg"
         }
       ]
     }
