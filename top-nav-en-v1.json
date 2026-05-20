@@ -495,7 +495,7 @@
               "visibleTo": null,
               "dataCy": "tdsrCalculator",
               "itemKey": "tdsrCalculator",
-              "preserveIconColor": false
+              "preserveIconColor": true
             },
             {
               "label": "MSR Calculator",
