@@ -229,7 +229,7 @@
               "visibleTo": null,
               "dataCy": "rentExplorePricesOnMap",
               "itemKey": "rentExplorePricesOnMap",
-              "preserveIconColor": true
+              "preserveIconColor": false
             }
           ]
         }
@@ -495,7 +495,7 @@
               "visibleTo": null,
               "dataCy": "tdsrCalculator",
               "itemKey": "tdsrCalculator",
-              "preserveIconColor": true
+              "preserveIconColor": false
             },
             {
               "label": "MSR Calculator",
