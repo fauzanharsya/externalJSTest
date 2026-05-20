@@ -229,7 +229,7 @@
               "visibleTo": null,
               "dataCy": "rentExplorePricesOnMap",
               "itemKey": "rentExplorePricesOnMap",
-              "preserveIconColor": false
+              "preserveIconColor": true
             }
           ]
         }
