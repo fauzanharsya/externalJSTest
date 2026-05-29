@@ -239,20 +239,14 @@
       "label": "Sell",
       "url": "",
       "separated": false,
-      "visibleTo": [
-        "guest",
-        "consumer"
-      ],
+      "visibleTo": ["guest", "consumer"],
       "dataCy": "navSell",
       "itemKey": "navSell",
       "children": [
         {
           "title": "AS HOME OWNER",
           "fullWidth": false,
-          "visibleTo": [
-            "guest",
-            "consumer"
-          ],
+          "visibleTo": ["guest", "consumer"],
           "withBlueTitle": false,
           "items": [
             {
@@ -299,9 +293,7 @@
         {
           "title": "AS AGENT",
           "fullWidth": false,
-          "visibleTo": [
-            "guest"
-          ],
+          "visibleTo": ["guest"],
           "withBlueTitle": false,
           "items": [
             {
@@ -756,19 +748,14 @@
       "label": "Agent Tools",
       "url": "/singapore/property-agent-hub",
       "separated": false,
-      "visibleTo": [
-        "guest",
-        "agent"
-      ],
+      "visibleTo": ["guest", "agent"],
       "dataCy": "navAgentTools",
       "itemKey": "navAgentTools",
       "children": [
         {
           "title": "TOOLS",
           "fullWidth": false,
-          "visibleTo": [
-            "agent"
-          ],
+          "visibleTo": ["agent"],
           "withBlueTitle": false,
           "items": [
             {
@@ -828,9 +815,7 @@
         {
           "title": null,
           "fullWidth": false,
-          "visibleTo": [
-            "agent"
-          ],
+          "visibleTo": ["agent"],
           "withBlueTitle": false,
           "items": [
             {
@@ -890,10 +875,7 @@
         {
           "title": null,
           "fullWidth": true,
-          "visibleTo": [
-            "guest",
-            "agent"
-          ],
+          "visibleTo": ["guest", "agent"],
           "withBlueTitle": false,
           "items": [
             {
@@ -919,9 +901,7 @@
       "label": "Favourites",
       "url": "/dashboard/shortlists",
       "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/shortlist.svg",
-      "visibleOn": [
-        "desktop"
-      ],
+      "visibleOn": ["desktop"],
       "itemKey": "favourites",
       "dataCy": "favourites",
       "dataTracking": "Shortlists Drawer"
@@ -930,9 +910,7 @@
       "label": "Search History",
       "url": "/dashboard/search-history",
       "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search.svg",
-      "visibleOn": [
-        "desktop"
-      ],
+      "visibleOn": ["desktop"],
       "itemKey": "savedSearch",
       "dataCy": "navFavouriteIcon",
       "dataTracking": null
@@ -945,10 +923,7 @@
         "url": "/dashboard/profile",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg",
         "dataCy": "profile",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "profile",
         "preserveIconColor": false
       },
@@ -957,10 +932,7 @@
         "url": "/dashboard/shortlists",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg",
         "dataCy": "favourites",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "favourites",
         "preserveIconColor": false
       },
@@ -969,10 +941,7 @@
         "url": "/dashboard/search-history",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg",
         "dataCy": "savedSearch",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "savedSearch",
         "preserveIconColor": false
       },
@@ -981,10 +950,7 @@
         "url": "/dashboard/property-value",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg",
         "dataCy": "trackedProperties",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "trackedProperties",
         "preserveIconColor": false
       },
@@ -993,9 +959,7 @@
         "url": "/profile/form/buyer?platform=web&source=Navigation Bar",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/buyer-profile.svg",
         "dataCy": "buyerProfile",
-        "visibleOn": [
-          "mobile"
-        ],
+        "visibleOn": ["mobile"],
         "itemKey": "buyerProfile",
         "preserveIconColor": false
       },
@@ -1004,9 +968,7 @@
         "url": "/profile/form/tenant?platform=web&source=Navigation Bar",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tenant-profile.svg",
         "dataCy": "tenantProfile",
-        "visibleOn": [
-          "mobile"
-        ],
+        "visibleOn": ["mobile"],
         "itemKey": "tenantProfile",
         "preserveIconColor": false
       },
@@ -1015,10 +977,7 @@
         "url": "/dashboard/listings",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg",
         "dataCy": "listedProperties",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "listedProperties",
         "preserveIconColor": false
       },
@@ -1027,10 +986,7 @@
         "url": "/ask-us-anything",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg",
         "dataCy": "feedbackForm",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "feedbackForm",
         "preserveIconColor": false
       },
@@ -1039,9 +995,7 @@
         "url": null,
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg",
         "dataCy": "logout",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "logout",
         "preserveIconColor": false
       }
@@ -1052,9 +1006,7 @@
         "url": "/select-credit-packages",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/credit.svg",
         "dataCy": "credits",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "credits",
         "preserveIconColor": false
       },
@@ -1063,10 +1015,7 @@
         "url": "/dashboard/profile",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/account.svg",
         "dataCy": "agentHome",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "agentHome",
         "preserveIconColor": false
       },
@@ -1075,10 +1024,7 @@
         "url": "/dashboard/shortlists",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/favourite-with-square.svg",
         "dataCy": "favourites",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "favourites",
         "preserveIconColor": false
       },
@@ -1087,10 +1033,7 @@
         "url": "/dashboard/search-history",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/saved-search-with-square.svg",
         "dataCy": "savedSearch",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "savedSearch",
         "preserveIconColor": false
       },
@@ -1099,10 +1042,7 @@
         "url": "/dashboard/property-value",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/tracked-properties.svg",
         "dataCy": "trackedProperties",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "trackedProperties",
         "preserveIconColor": false
       },
@@ -1111,10 +1051,7 @@
         "url": "/dashboard/listings",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/listed-properties.svg",
         "dataCy": "listedProperties",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "listedProperties",
         "preserveIconColor": false
       },
@@ -1123,9 +1060,7 @@
         "url": "/dashboard/scheduled-groups",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/scheduled-groups.svg",
         "dataCy": "scheduledGroups",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "scheduledGroups",
         "preserveIconColor": false
       },
@@ -1134,9 +1069,7 @@
         "url": "/singapore/agents/",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/agent-page.svg",
         "dataCy": "agentPage",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "agentPage",
         "preserveIconColor": false
       },
@@ -1145,10 +1078,7 @@
         "url": "/ask-us-anything",
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/feedback.svg",
         "dataCy": "feedbackForm",
-        "visibleOn": [
-          "desktop",
-          "mobile"
-        ],
+        "visibleOn": ["desktop", "mobile"],
         "itemKey": "feedbackForm",
         "preserveIconColor": false
       },
@@ -1157,9 +1087,7 @@
         "url": null,
         "iconUrl": "https://assets-static.99.co/static/web-icons/top-nav/log-out.svg",
         "dataCy": "logout",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "logout",
         "preserveIconColor": false
       }
@@ -1169,9 +1097,7 @@
     "consumer": [
       {
         "label": "List Property",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "listProperty"
       }
     ],
@@ -1180,9 +1106,7 @@
         "label": "List Property",
         "title": "Create Residential/Commercial Listings",
         "subTitle": "You Can Create More Must See Listings Using Credits Must See Option Is Available Inside",
-        "visibleOn": [
-          "desktop"
-        ],
+        "visibleOn": ["desktop"],
         "itemKey": "listProperty"
       }
     ]
