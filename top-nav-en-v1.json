@@ -325,7 +325,7 @@
     {
       "label": "New Launches",
       "url": "/singapore/new-launches",
-      "separated": false,
+      "separated": true,
       "visibleTo": null,
       "dataCy": "navNewLaunches",
       "itemKey": "navNewLaunches",
@@ -356,7 +356,7 @@
     {
       "label": "Explore",
       "url": "",
-      "separated": true,
+      "separated": false,
       "visibleTo": null,
       "dataCy": "navExplore",
       "itemKey": "navExplore",
